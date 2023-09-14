@@ -88,15 +88,15 @@ body {
 
 /* En-tÃªte */
 #entete {
-	padding: 15px 20px 10px 20px;
+	/*padding: 15px 20px 10px 20px;*/
 	text-align: center;
 }
 #entete h1 {
 	margin: 0;
 }
 #entete h1 img {
-	float: center; /* ________________________________________________________________________ */
-	margin: 7px 20px 10px 0;
+	float: center; /* margin: 7px 20px 10px 0; */
+	
 }
 #entete .sous-titre {
 	margin: 4px 0 15px 0;
