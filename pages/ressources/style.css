@@ -18,10 +18,12 @@ strong {
 /* Page */
 #global {
 	background: #9ee0ff;
+	text-align: center;
 }
 
 /* Navigation */
 #navigation {
+	/*margin-top:75px; */
 	background: #7e9eda;
 	border-radius: 10px;
 }
@@ -29,7 +31,8 @@ strong {
 	color: #000000;    /* COULEUR MENU*/
 }
 #navigation a:hover, #navigation a:focus {
-	background: #ff0000;
+	background: #0c33e4;
+	border-radius: 10px;
 }
 
 /* Contenu principal */
@@ -93,7 +96,7 @@ body {
 	margin: 0;
 }
 #entete h1 img {
-	float: left;
+	float: center; /* ________________________________________________________________________ */
 	margin: 7px 20px 10px 0;
 }
 #entete .sous-titre {
