@@ -1,5 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*
 body {
+	font-family: 'Poppins', sans-serif;
 	color: #000000;
 	background: #000000;
 
@@ -15,7 +17,7 @@ body {
 #navigation {
 
 	background: #0a2c75;
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;;
 	border-radius: 10px;
 	color: #9de9f3;
 	background: #500f0600;
@@ -25,7 +27,7 @@ body {
 }
 #navigation a {
 	
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;;
 	color: #9de9f3;
 }
 #navigation a:hover, #navigation a:focus {
@@ -35,8 +37,8 @@ body {
 
 /* Contenu principal */
 #contenu {
-	font-family: sans-serif;
-	margin-top: 1%;
+	font-family: 'Poppins', sans-serif;;
+	margin-top: 2%;
 	color: #9de9f3;
 	background: #06145000;
 	border-radius: 10px;
@@ -64,7 +66,7 @@ input {
 	color: #2be47e;
 }
 #contenu a:hover, #contenu a:focus {
-	color: #286e22;
+	color: #000000;
 }
 #contenu strong {
 	color: #181A12;
@@ -112,6 +114,9 @@ body {
 /* Menu de navigation */
 #navigation {
 	padding: 12px 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+
 
 }
 #navigation ul {
@@ -127,6 +132,7 @@ body {
 	line-height: 1.5;
 	font-size: 18px;
 	text-decoration: none;
+
 }
 
 /* Contenu */
@@ -164,6 +170,9 @@ body {
 	
 	
 }
+input:focus{
+	outline: NONE;
+	}
 .inputa{
     display: flex;
     justify-content: center;
@@ -214,5 +223,6 @@ body {
 #bouttonCo button:hover {
 	scale: 1.04;
 	transition: all 0.2s ease-in-out;
+	color: red;
 }
 
