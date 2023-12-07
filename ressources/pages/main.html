@@ -3,12 +3,14 @@
 <html lang="fr">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>
  InPoll
 	</title>
-	<link rel="icon" type="image/x-icon" href="ressources/images/logo.ico">
-	<link rel="stylesheet" type="text/css" href="ressources/base.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="ressources/stylemain.css" media="screen" />
+	<link rel="icon" type="image/x-icon" href="../images/logo.ico">
+	<link rel="stylesheet" type="text/css" href="../styles/base.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../styles/stylemain.css" media="screen" />
 
 </head>
 
@@ -18,27 +20,18 @@
 
 	<div id="entete">
 		<h1>
-			<img src="ressources/images/logo.png" alt="Logo" width="200" height="75">
+			<img src="../images/logo.png" alt="Logo" width="200">
+			<p id="userName"></p>
+			<a href="../../index.html">Déconexion</a>
 		</h1>
 
 	</div>
 
-	<div id="navigation">
-		<ul>
-			<li><a href="../index.html">Accueil</a></li>
-			<li><a href="#">Créer un Sondage</a></li>
-			<li><a href="#">Voir les sondages</a></li>
-		</ul>
-	</div>
+	
 
 	<div id="contenu">
-		<h2></h2>
-		<h3></h3>
-		<p></p>
-		<p></p>
-		<p></p>
-		<h3>Accueil</h3>
-		<p></p>
+
+		<h3>Liste des sondages</h3>
 		<div id="sondage">
  
             <h2> Sondage 1</h2>
@@ -61,6 +54,7 @@
 
 
 </div>
+<script src="../scripts/nameload.js"></script>
 
 </body>
 </html>
